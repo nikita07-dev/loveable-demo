@@ -97,7 +97,7 @@ function Index() {
             className="relative rounded-3xl border border-border/70 bg-card/80 p-8 backdrop-blur-xl sm:p-10"
             style={{ boxShadow: "var(--shadow-soft)" }}
           >
-            <p className="text-xs uppercase tracking-[0.3em] text-primary">Welcome back</p>
+            <p className="text-xs uppercase tracking-[0.3em] text-primary">Still glowing</p>
             <h2 className="mt-2 font-display text-4xl leading-tight text-foreground">
               Your heart left a<br />bookmark here.
             </h2>
