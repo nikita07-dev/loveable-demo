@@ -99,7 +99,7 @@ function Index() {
           >
             <p className="text-xs uppercase tracking-[0.3em] text-primary">Welcome back</p>
             <h2 className="mt-2 font-display text-4xl leading-tight text-foreground">
-              Pick up where the<br />conversation left off.
+              Your heart left a<br />bookmark here.
             </h2>
 
             <form
