@@ -37,3 +37,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy lovable-demo \
+            --image=europe-docker.pkg.dev/ri-training-prod-499014/artifact-registry/lovable-demo:latest \
+            --region=europe-north1 \
+            --platform=managed \
+            --allow-unauthenticated
