@@ -12,4 +12,11 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    server: {
+      allowedHosts: ['lovable-demo-50654128731.europe-north1.run.app'],
+      host: true,
+      port: 8080
+    }
+  }
 });
